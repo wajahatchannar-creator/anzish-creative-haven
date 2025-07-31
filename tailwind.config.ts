@@ -53,12 +53,19 @@ export default {
 					foreground: 'hsl(var(--card-foreground))'
 				},
 				rose: {
-					light: 'hsl(var(--rose-light))',
-					DEFAULT: 'hsl(var(--rose))',
-					dark: 'hsl(var(--rose-dark))'
+					light: 'hsl(var(--red-light))',
+					DEFAULT: 'hsl(var(--red))',
+					dark: 'hsl(var(--red-dark))'
 				},
-				gold: 'hsl(var(--gold))',
-				cream: 'hsl(var(--cream))',
+				red: {
+					light: 'hsl(var(--red-light))',
+					DEFAULT: 'hsl(var(--red))',
+					dark: 'hsl(var(--red-dark))',
+					darker: 'hsl(var(--red-darker))',
+					accent: 'hsl(var(--red-accent))'
+				},
+				burgundy: 'hsl(var(--burgundy))',
+				wine: 'hsl(var(--wine))',
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',

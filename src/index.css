@@ -8,49 +8,53 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 13 20% 97%;
-    --foreground: 15 25% 15%;
+    --background: 0 10% 95%;
+    --foreground: 0 15% 10%;
 
     --card: 0 0% 100%;
-    --card-foreground: 15 25% 15%;
+    --card-foreground: 0 15% 10%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 15 25% 15%;
+    --popover-foreground: 0 15% 10%;
 
-    --primary: 340 75% 55%;
+    --primary: 0 75% 35%;
     --primary-foreground: 0 0% 98%;
 
-    --secondary: 13 20% 95%;
-    --secondary-foreground: 15 25% 25%;
+    --secondary: 0 15% 90%;
+    --secondary-foreground: 0 25% 15%;
 
-    --muted: 13 15% 92%;
-    --muted-foreground: 15 15% 45%;
+    --muted: 0 10% 88%;
+    --muted-foreground: 0 15% 35%;
 
-    --accent: 345 65% 85%;
-    --accent-foreground: 15 25% 15%;
+    --accent: 0 50% 85%;
+    --accent-foreground: 0 25% 10%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 13 15% 88%;
-    --input: 13 15% 88%;
-    --ring: 340 75% 55%;
+    --border: 0 15% 82%;
+    --input: 0 15% 82%;
+    --ring: 0 75% 35%;
 
-    /* Custom design tokens */
-    --rose-light: 340 60% 92%;
-    --rose: 340 75% 55%;
-    --rose-dark: 340 85% 45%;
-    --gold: 45 85% 60%;
-    --cream: 30 25% 95%;
+    /* Custom dark red design tokens */
+    --red-light: 0 45% 88%;
+    --red: 0 75% 35%;
+    --red-dark: 0 85% 25%;
+    --red-darker: 0 90% 15%;
+    --red-accent: 0 60% 45%;
+    --burgundy: 345 85% 20%;
+    --wine: 350 80% 25%;
     
-    /* Gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(var(--rose-light)), hsl(var(--rose)));
-    --gradient-hero: linear-gradient(135deg, hsl(var(--cream)), hsl(var(--rose-light)));
-    --gradient-card: linear-gradient(180deg, hsl(var(--background)), hsl(var(--rose-light) / 0.1));
+    /* Gradients with dark reds */
+    --gradient-primary: linear-gradient(135deg, hsl(var(--red-dark)), hsl(var(--red-darker)));
+    --gradient-hero: linear-gradient(135deg, hsl(var(--red-light)), hsl(var(--red)));
+    --gradient-card: linear-gradient(180deg, hsl(var(--background)), hsl(var(--red) / 0.1));
+    --gradient-accent: linear-gradient(45deg, hsl(var(--burgundy)), hsl(var(--wine)));
     
-    /* Shadows */
-    --shadow-elegant: 0 10px 30px -10px hsl(var(--rose) / 0.2);
-    --shadow-soft: 0 4px 20px -4px hsl(var(--rose) / 0.15);
+    /* Shadows with red tones */
+    --shadow-elegant: 0 10px 30px -10px hsl(var(--red-dark) / 0.3);
+    --shadow-soft: 0 4px 20px -4px hsl(var(--red) / 0.2);
+    --shadow-dramatic: 0 20px 40px -15px hsl(var(--red-darker) / 0.4);
     
     /* Animations */
     --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);

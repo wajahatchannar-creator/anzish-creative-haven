@@ -77,10 +77,10 @@ const Portfolio = () => {
     : portfolioItems.filter(item => item.category === activeCategory);
 
   return (
-    <section id="portfolio" className="py-24 bg-gradient-to-br from-background via-rose-light/10 to-cream/20">
+    <section id="portfolio" className="py-24 bg-gradient-to-br from-background via-red-light/10 to-red-light/20">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-foreground to-rose bg-clip-text text-transparent">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-foreground to-red-dark bg-clip-text text-transparent">
             Portfolio Gallery
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto mb-8">
@@ -107,7 +107,7 @@ const Portfolio = () => {
           {filteredItems.map((item) => (
             <Card 
               key={item.id} 
-              className="group overflow-hidden hover:shadow-[var(--shadow-elegant)] transition-all duration-300 hover:scale-105 border-rose/20 bg-card"
+              className="group overflow-hidden hover:shadow-[var(--shadow-elegant)] transition-all duration-300 hover:scale-105 border-red/20 bg-card"
             >
               <CardContent className="p-0">
                 <div className="relative overflow-hidden">

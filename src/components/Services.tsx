@@ -29,10 +29,10 @@ const Services = () => {
   ];
 
   return (
-    <section className="py-24 bg-gradient-to-br from-cream/30 to-background">
+    <section className="py-24 bg-gradient-to-br from-red-light/20 to-background">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-foreground to-rose bg-clip-text text-transparent">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-foreground to-red-dark bg-clip-text text-transparent">
             Services Offered
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
@@ -44,13 +44,13 @@ const Services = () => {
           {services.map((service, index) => (
             <Card 
               key={index} 
-              className="group hover:shadow-[var(--shadow-elegant)] transition-all duration-300 hover:scale-105 border-rose/20 bg-gradient-to-br from-card to-rose-light/5"
+              className="group hover:shadow-[var(--shadow-elegant)] transition-all duration-300 hover:scale-105 border-red/20 bg-gradient-to-br from-card to-red-light/5"
             >
               <CardHeader className="text-center pb-4">
                 <div className="text-4xl mb-4 group-hover:animate-bounce">
                   {service.icon}
                 </div>
-                <CardTitle className="text-xl text-rose mb-2">
+                <CardTitle className="text-xl text-red-dark mb-2">
                   {service.title}
                 </CardTitle>
                 <CardDescription className="text-muted-foreground">
@@ -61,7 +61,7 @@ const Services = () => {
                 <ul className="space-y-2">
                   {service.features.map((feature, idx) => (
                     <li key={idx} className="text-sm text-muted-foreground flex items-center">
-                      <span className="w-2 h-2 bg-rose rounded-full mr-3 flex-shrink-0"></span>
+                      <span className="w-2 h-2 bg-red-dark rounded-full mr-3 flex-shrink-0"></span>
                       {feature}
                     </li>
                   ))}

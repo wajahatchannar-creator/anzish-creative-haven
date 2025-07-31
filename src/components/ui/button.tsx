@@ -18,8 +18,8 @@ const buttonVariants = cva(
           "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
-        elegant: "bg-gradient-to-r from-rose-light to-rose text-foreground hover:shadow-[var(--shadow-elegant)] hover:scale-105 border border-rose/20",
-        contact: "bg-gradient-to-r from-rose to-rose-dark text-primary-foreground hover:shadow-[var(--shadow-soft)] hover:scale-105 font-semibold",
+        elegant: "bg-gradient-to-r from-red-light to-red text-foreground hover:shadow-[var(--shadow-elegant)] hover:scale-105 border border-red/20",
+        contact: "bg-gradient-to-r from-red-dark to-red-darker text-primary-foreground hover:shadow-[var(--shadow-dramatic)] hover:scale-105 font-semibold",
       },
       size: {
         default: "h-10 px-4 py-2",

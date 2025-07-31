@@ -4,10 +4,10 @@ import { Phone, MapPin, MessageCircle } from "lucide-react";
 
 const Contact = () => {
   return (
-    <section className="py-24 bg-gradient-to-br from-rose-light/20 via-cream/30 to-background">
+    <section className="py-24 bg-gradient-to-br from-red-light/20 via-red-light/30 to-background">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-foreground to-rose bg-clip-text text-transparent">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-foreground to-red-dark bg-clip-text text-transparent">
             Get In Touch
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
@@ -19,9 +19,9 @@ const Contact = () => {
           <div className="grid md:grid-cols-2 gap-8">
             {/* Contact Information */}
             <div className="space-y-6">
-              <Card className="border-rose/20 bg-card shadow-[var(--shadow-soft)]">
+              <Card className="border-red/20 bg-card shadow-[var(--shadow-soft)]">
                 <CardHeader>
-                  <CardTitle className="flex items-center gap-3 text-rose">
+                  <CardTitle className="flex items-center gap-3 text-red-dark">
                     <Phone className="w-6 h-6" />
                     WhatsApp Contact
                   </CardTitle>
@@ -45,9 +45,9 @@ const Contact = () => {
                 </CardContent>
               </Card>
 
-              <Card className="border-rose/20 bg-card shadow-[var(--shadow-soft)]">
+              <Card className="border-red/20 bg-card shadow-[var(--shadow-soft)]">
                 <CardHeader>
-                  <CardTitle className="flex items-center gap-3 text-rose">
+                  <CardTitle className="flex items-center gap-3 text-red-dark">
                     <MapPin className="w-6 h-6" />
                     Location
                   </CardTitle>
@@ -65,13 +65,13 @@ const Contact = () => {
 
             {/* Services Summary */}
             <div className="space-y-6">
-              <Card className="border-rose/20 bg-gradient-to-br from-card to-rose-light/10 shadow-[var(--shadow-soft)]">
+              <Card className="border-red/20 bg-gradient-to-br from-card to-red-light/10 shadow-[var(--shadow-soft)]">
                 <CardHeader>
-                  <CardTitle className="text-rose">Why Choose Me?</CardTitle>
+                  <CardTitle className="text-red-dark">Why Choose Me?</CardTitle>
                 </CardHeader>
                 <CardContent className="space-y-4">
                   <div className="flex items-start gap-3">
-                    <div className="w-2 h-2 bg-rose rounded-full mt-2 flex-shrink-0"></div>
+                    <div className="w-2 h-2 bg-red-dark rounded-full mt-2 flex-shrink-0"></div>
                     <div>
                       <h4 className="font-semibold text-foreground">Professional Expertise</h4>
                       <p className="text-sm text-muted-foreground">Years of experience in beauty and fashion design</p>
@@ -79,7 +79,7 @@ const Contact = () => {
                   </div>
                   
                   <div className="flex items-start gap-3">
-                    <div className="w-2 h-2 bg-rose rounded-full mt-2 flex-shrink-0"></div>
+                    <div className="w-2 h-2 bg-red-dark rounded-full mt-2 flex-shrink-0"></div>
                     <div>
                       <h4 className="font-semibold text-foreground">Personalized Service</h4>
                       <p className="text-sm text-muted-foreground">Tailored solutions for your unique style and needs</p>
@@ -87,7 +87,7 @@ const Contact = () => {
                   </div>
                   
                   <div className="flex items-start gap-3">
-                    <div className="w-2 h-2 bg-rose rounded-full mt-2 flex-shrink-0"></div>
+                    <div className="w-2 h-2 bg-red-dark rounded-full mt-2 flex-shrink-0"></div>
                     <div>
                       <h4 className="font-semibold text-foreground">Quality Craftsmanship</h4>
                       <p className="text-sm text-muted-foreground">Attention to detail in every project</p>
@@ -95,7 +95,7 @@ const Contact = () => {
                   </div>
                   
                   <div className="flex items-start gap-3">
-                    <div className="w-2 h-2 bg-rose rounded-full mt-2 flex-shrink-0"></div>
+                    <div className="w-2 h-2 bg-red-dark rounded-full mt-2 flex-shrink-0"></div>
                     <div>
                       <h4 className="font-semibold text-foreground">Customer Satisfaction</h4>
                       <p className="text-sm text-muted-foreground">Committed to exceeding your expectations</p>
