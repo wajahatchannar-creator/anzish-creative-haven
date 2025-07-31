@@ -8,33 +8,52 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --background: 13 20% 97%;
+    --foreground: 15 25% 15%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 15 25% 15%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 15 25% 15%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 340 75% 55%;
+    --primary-foreground: 0 0% 98%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 13 20% 95%;
+    --secondary-foreground: 15 25% 25%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 13 15% 92%;
+    --muted-foreground: 15 15% 45%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 345 65% 85%;
+    --accent-foreground: 15 25% 15%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 13 15% 88%;
+    --input: 13 15% 88%;
+    --ring: 340 75% 55%;
+
+    /* Custom design tokens */
+    --rose-light: 340 60% 92%;
+    --rose: 340 75% 55%;
+    --rose-dark: 340 85% 45%;
+    --gold: 45 85% 60%;
+    --cream: 30 25% 95%;
+    
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(var(--rose-light)), hsl(var(--rose)));
+    --gradient-hero: linear-gradient(135deg, hsl(var(--cream)), hsl(var(--rose-light)));
+    --gradient-card: linear-gradient(180deg, hsl(var(--background)), hsl(var(--rose-light) / 0.1));
+    
+    /* Shadows */
+    --shadow-elegant: 0 10px 30px -10px hsl(var(--rose) / 0.2);
+    --shadow-soft: 0 4px 20px -4px hsl(var(--rose) / 0.15);
+    
+    /* Animations */
+    --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 
     --radius: 0.5rem;
 
