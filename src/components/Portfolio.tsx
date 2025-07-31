@@ -1,80 +1,46 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
+import { useNavigate } from "react-router-dom";
 
 const Portfolio = () => {
-  const [activeCategory, setActiveCategory] = useState("all");
+  const navigate = useNavigate();
 
-  const portfolioItems = [
+  // Featured portfolio categories with representative images
+  const portfolioCategories = [
     {
-      id: 1,
-      category: "beauty",
-      title: "Bridal Makeup Art",
+      id: "beauty",
+      title: "Beauty & Makeup",
       image: "/lovable-uploads/e2c8fd55-f9c1-425c-b963-39ae423563ee.png",
-      description: "Elegant bridal makeup with traditional jewelry styling"
+      description: "Professional bridal makeup and beauty transformations",
+      route: "/beauty-portfolio"
     },
     {
-      id: 2,
-      category: "beauty",
-      title: "Traditional Bridal Look",
-      image: "/lovable-uploads/7df7fb39-e72b-4646-a13c-0af682be97d8.png",
-      description: "Classic bridal makeup with intricate detailing"
-    },
-    {
-      id: 3,
-      category: "fashion",
-      title: "Floral Embroidered Dress",
+      id: "fashion", 
+      title: "Fashion Design",
       image: "/lovable-uploads/477e4c75-9d0c-4ff7-9d39-ed6e34fd55ab.png",
-      description: "White traditional dress with delicate floral embroidery"
+      description: "Custom dress designs with traditional embroidery",
+      route: "/fashion-portfolio"
     },
     {
-      id: 4,
-      category: "fashion",
-      title: "Floral Designer Outfit",
-      image: "/lovable-uploads/37b4ff13-b8de-4af7-8751-483da78f91e4.png",
-      description: "Light colored outfit with beautiful floral appliqué work"
-    },
-    {
-      id: 5,
-      category: "crafts",
-      title: "Luxury Gift Basket",
+      id: "crafts",
+      title: "Craft Design", 
       image: "/lovable-uploads/df39882f-bc89-4cde-b97d-79a38279c382.png",
-      description: "Thoughtfully curated gift basket with teddy bear and treats"
+      description: "Handcrafted gift baskets and unique arrangements",
+      route: "/craft-portfolio"
     },
     {
-      id: 6,
-      category: "crafts",
-      title: "Premium Gift Collection",
-      image: "/lovable-uploads/ddc59104-e863-45e7-8080-47b0b46b1fae.png",
-      description: "Elegant gift basket arrangement with chocolates and surprises"
-    },
-    {
-      id: 7,
-      category: "floral",
-      title: "Red Rose Bouquet",
-      image: "/lovable-uploads/2e67bc71-270e-4afc-8806-c2fc1d3deaea.png",
-      description: "Stunning red glittery roses arrangement"
-    },
-    {
-      id: 8,
-      category: "floral",
-      title: "Purple Rose Arrangement",
-      image: "/lovable-uploads/5440fd24-df5b-4f9c-b575-bf0c956970f8.png",
-      description: "Elegant purple glittery roses bouquet"
+      id: "floral",
+      title: "Floral Arrangements",
+      image: "/lovable-uploads/2e67bc71-270e-4afc-8806-c2fc1d3deaea.png", 
+      description: "Exquisite floral bouquets and arrangements",
+      route: "/floral-portfolio"
     }
   ];
 
-  const categories = [
-    { id: "all", label: "All Work" },
-    { id: "beauty", label: "Beauty & Makeup" },
-    { id: "fashion", label: "Fashion Design" },
-    { id: "crafts", label: "Craft Design" },
-    { id: "floral", label: "Floral Arrangements" }
-  ];
-
-  const filteredItems = activeCategory === "all" 
-    ? portfolioItems 
-    : portfolioItems.filter(item => item.category === activeCategory);
+  const handleCategoryClick = (route: string) => {
+    navigate(route);
+  };
 
   return (
     <section id="portfolio" className="py-24 bg-gradient-to-br from-background via-red-light/10 to-red-light/20">
@@ -84,42 +50,34 @@ const Portfolio = () => {
             Portfolio Gallery
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto mb-8">
-            Explore my creative work across beauty, fashion, and craft design
+            Click on any category to explore detailed portfolio galleries
           </p>
-          
-          {/* Category Filter */}
-          <div className="flex flex-wrap justify-center gap-3 mb-12">
-            {categories.map((category) => (
-              <Button
-                key={category.id}
-                variant={activeCategory === category.id ? "default" : "outline"}
-                onClick={() => setActiveCategory(category.id)}
-                className="transition-all duration-300"
-              >
-                {category.label}
-              </Button>
-            ))}
-          </div>
         </div>
         
-        {/* Portfolio Grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-          {filteredItems.map((item) => (
+        {/* Portfolio Categories Grid */}
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          {portfolioCategories.map((category) => (
             <Card 
-              key={item.id} 
-              className="group overflow-hidden hover:shadow-[var(--shadow-elegant)] transition-all duration-300 hover:scale-105 border-red/20 bg-card"
+              key={category.id} 
+              className="group overflow-hidden hover:shadow-[var(--shadow-elegant)] transition-all duration-300 hover:scale-105 border-red/20 bg-card cursor-pointer"
+              onClick={() => handleCategoryClick(category.route)}
             >
               <CardContent className="p-0">
                 <div className="relative overflow-hidden">
                   <img 
-                    src={item.image} 
-                    alt={item.title}
+                    src={category.image} 
+                    alt={category.title}
                     className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent">
                     <div className="absolute bottom-4 left-4 right-4 text-white">
-                      <h3 className="font-semibold text-lg mb-1">{item.title}</h3>
-                      <p className="text-sm opacity-90">{item.description}</p>
+                      <h3 className="font-semibold text-lg mb-2">{category.title}</h3>
+                      <p className="text-sm opacity-90">{category.description}</p>
+                      <div className="mt-3 inline-block">
+                        <span className="text-xs bg-white/20 px-3 py-1 rounded-full backdrop-blur-sm">
+                          Click to explore →
+                        </span>
+                      </div>
                     </div>
                   </div>
                 </div>

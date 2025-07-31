@@ -3,28 +3,16 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 const Services = () => {
   const services = [
     {
-      title: "Beautician Services",
-      description: "Professional makeup, skincare treatments, and beauty consultations for all occasions.",
+      title: "Beauty & Fashion Services",
+      description: "Professional makeup, skincare treatments, and custom dress designs for all occasions.",
       icon: "💄",
-      features: ["Bridal Makeup", "Party Makeup", "Skincare Consultation", "Beauty Treatments"]
+      features: ["Bridal Makeup", "Party Makeup", "Custom Embroidery", "Traditional Wear", "Skincare Consultation", "Personal Fitting"]
     },
     {
-      title: "Custom Dress Design",
-      description: "Bespoke dress designs and traditional outfits tailored to your unique style.",
-      icon: "👗",
-      features: ["Traditional Wear", "Custom Embroidery", "Fabric Selection", "Personal Fitting"]
-    },
-    {
-      title: "Craft Design",
-      description: "Unique handcrafted items, gift arrangements, and decorative pieces.",
+      title: "Craft & Wellness Services", 
+      description: "Unique handcrafted items, floral arrangements, and personalized fitness consultation.",
       icon: "🎨",
-      features: ["Gift Baskets", "Floral Arrangements", "Handmade Crafts", "Custom Decorations"]
-    },
-    {
-      title: "Body Fitness Consultation",
-      description: "Personalized fitness guidance and wellness consultation services.",
-      icon: "💪",
-      features: ["Fitness Planning", "Wellness Guidance", "Health Consultation", "Lifestyle Advice"]
+      features: ["Gift Baskets", "Floral Arrangements", "Handmade Crafts", "Fitness Planning", "Wellness Guidance", "Custom Decorations"]
     }
   ];
 
@@ -40,7 +28,7 @@ const Services = () => {
           </p>
         </div>
         
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           {services.map((service, index) => (
             <Card 
               key={index} 
