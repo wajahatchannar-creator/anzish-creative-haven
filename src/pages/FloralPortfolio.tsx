@@ -18,6 +18,66 @@ const FloralPortfolio = () => {
       title: "Purple Rose Arrangement",
       image: "/lovable-uploads/5440fd24-df5b-4f9c-b575-bf0c956970f8.png",
       description: "Elegant purple glittery roses bouquet with sophisticated black packaging"
+    },
+    {
+      id: 3,
+      title: "Classic Red Rose Bouquet",
+      image: "/lovable-uploads/ea385ba8-1088-4ad2-ac47-56dcf83b41d4.png",
+      description: "Beautiful red roses arranged in pristine white wrapping for elegant presentation"
+    },
+    {
+      id: 4,
+      title: "Burgundy & White Rose Mix",
+      image: "/lovable-uploads/fb539cd9-84db-43e7-80e2-745ff5464996.png",
+      description: "Sophisticated burgundy and white roses with pearl accents in black wrapping"
+    },
+    {
+      id: 5,
+      title: "Pink Crystal Rose Bouquet",
+      image: "/lovable-uploads/69169c58-e103-4923-817f-c16729b236a8.png",
+      description: "Stunning pink crystal roses in geometric clear packaging design"
+    },
+    {
+      id: 6,
+      title: "Purple Glitter Roses",
+      image: "/lovable-uploads/772c5359-29f7-4a73-a594-c65f664b5227.png",
+      description: "Luxurious purple glitter roses with sparkling finish in black wrapping"
+    },
+    {
+      id: 7,
+      title: "Royal Blue Rose Collection",
+      image: "/lovable-uploads/6bb04db1-e9df-4652-8807-e6b930bcd981.png",
+      description: "Magnificent royal blue glittery roses in elegant geometric presentation"
+    },
+    {
+      id: 8,
+      title: "Dark Red Glitter Bouquet",
+      image: "/lovable-uploads/77123ffd-d5f2-4d1d-a003-12609c36abac.png",
+      description: "Rich dark red glittery roses in sophisticated black star-shaped wrapping"
+    },
+    {
+      id: 9,
+      title: "Multi-Color Rose Collection",
+      image: "/lovable-uploads/6c49b653-2566-4347-b882-46ea67a09441.png",
+      description: "Beautiful collection of blue, pink & white, and red & white rose bouquets"
+    },
+    {
+      id: 10,
+      title: "Blue Graduation Bouquet",
+      image: "/lovable-uploads/020ffbee-4fcc-4545-a321-aad4c8c886b9.png",
+      description: "Special blue rose bouquet with graduation cap and butterfly decorations"
+    },
+    {
+      id: 11,
+      title: "Blue & White Mixed Bouquet",
+      image: "/lovable-uploads/66bd89ac-6568-4c2c-87bf-bc927b985d99.png",
+      description: "Elegant combination of blue and white roses with butterfly accents"
+    },
+    {
+      id: 12,
+      title: "Purple Birthday Bouquet",
+      image: "/lovable-uploads/23616911-571c-45fe-9880-a3c8523b01e0.png",
+      description: "Luxurious purple roses with crown, pearls, and happy birthday ribbon"
     }
   ];
 
