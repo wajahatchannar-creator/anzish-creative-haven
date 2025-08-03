@@ -18,6 +18,54 @@ const BeautyPortfolio = () => {
       title: "Traditional Bridal Look",
       image: "/lovable-uploads/7df7fb39-e72b-4646-a13c-0af682be97d8.png",
       description: "Classic bridal makeup with intricate detailing and traditional accessories"
+    },
+    {
+      id: 3,
+      title: "Rida Fatima Bridal Beauty",
+      image: "/lovable-uploads/06597b6f-9d7d-4435-a653-701643be761f.png",
+      description: "Traditional red bridal makeup with gold jewelry and elegant dupatta styling"
+    },
+    {
+      id: 4,
+      title: "Glamorous Bridal Makeup",
+      image: "/lovable-uploads/f206627c-3807-4e62-81a2-1a2c6f98901f.png",
+      description: "Stunning bridal look with glittery eye makeup and traditional nose ring"
+    },
+    {
+      id: 5,
+      title: "Royal Bridal Style",
+      image: "/lovable-uploads/48cb4155-9d06-43c1-a584-7630f3298ec2.png",
+      description: "Regal bridal makeup with heavy traditional jewelry and maang tikka"
+    },
+    {
+      id: 6,
+      title: "Elegant White Bridal Look",
+      image: "/lovable-uploads/20db0d20-a04f-4135-9cf3-34768f057cdc.png",
+      description: "Sophisticated white outfit bridal makeup with pearl jewelry"
+    },
+    {
+      id: 7,
+      title: "Green Traditional Bridal",
+      image: "/lovable-uploads/e1f02119-2a13-458d-a308-72fb12cc2893.png",
+      description: "Beautiful green lehenga bridal look with emerald jewelry"
+    },
+    {
+      id: 8,
+      title: "Pink Bridal Elegance",
+      image: "/lovable-uploads/46071528-d610-4cac-a14d-cd88c3183365.png",
+      description: "Charming pink bridal attire with delicate makeup and jewelry"
+    },
+    {
+      id: 9,
+      title: "Maroon Bridal Perfection",
+      image: "/lovable-uploads/896fc945-0c5a-4ae2-8683-078993406899.png",
+      description: "Classic maroon bridal outfit with gold jewelry and bold makeup"
+    },
+    {
+      id: 10,
+      title: "Mint Green Bridal Style",
+      image: "/lovable-uploads/a2c94d4c-0197-41d1-814c-fcb19dc787ea.png",
+      description: "Refreshing mint green bridal look with matching jewelry set"
     }
   ];
 
