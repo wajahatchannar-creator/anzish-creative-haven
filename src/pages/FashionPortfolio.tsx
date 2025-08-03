@@ -18,6 +18,42 @@ const FashionPortfolio = () => {
       title: "Floral Designer Outfit",
       image: "/lovable-uploads/37b4ff13-b8de-4af7-8751-483da78f91e4.png",
       description: "Light colored outfit with beautiful floral appliqué work and sequin embellishments"
+    },
+    {
+      id: 3,
+      title: "Light Floral Embroidered Set",
+      image: "/lovable-uploads/1a597594-d6b6-4ad1-9904-c6f1998b2695.png",
+      description: "Elegant beige outfit with colorful floral embroidery and gold border details"
+    },
+    {
+      id: 4,
+      title: "Blue Royal Designer Dress",
+      image: "/lovable-uploads/da74cc4b-03f0-404d-8cb2-3444c640ec05.png",
+      description: "Royal blue dress with stunning floral dupatta and traditional embroidered patterns"
+    },
+    {
+      id: 5,
+      title: "Floral Hand-Painted Fabric",
+      image: "/lovable-uploads/4fc44108-a345-456f-b0cf-b5a3ab249395.png",
+      description: "Exquisite hand-painted floral design with purple and pink flowers on silk fabric"
+    },
+    {
+      id: 6,
+      title: "Mint Green Embroidered Outfit",
+      image: "/lovable-uploads/675043a4-15d7-4a31-b9db-a356245295ac.png",
+      description: "Beautiful mint green dress with delicate floral embroidery and sequin work"
+    },
+    {
+      id: 7,
+      title: "White Formal Collection",
+      image: "/lovable-uploads/532cc876-1e87-4ba1-bbef-eae17aac526c.png",
+      description: "Elegant white formal wear collection with vibrant floral dupatta designs"
+    },
+    {
+      id: 8,
+      title: "Purple Floral Designer Set",
+      image: "/lovable-uploads/d07f5027-1965-4178-bdeb-8ba5c11be570.png",
+      description: "Sophisticated purple outfit with intricate floral embroidery and gold detailing"
     }
   ];
 
