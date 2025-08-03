@@ -36,7 +36,7 @@ const Index = () => {
       <footer className="py-8 bg-foreground text-background text-center">
         <div className="container mx-auto px-6">
           <p className="text-sm opacity-80">
-            © 2024 Anzish Fatima. All rights reserved.
+            © 2024 Salman Channar (salmanchannar222@gmail.com). All rights reserved.
           </p>
         </div>
       </footer>

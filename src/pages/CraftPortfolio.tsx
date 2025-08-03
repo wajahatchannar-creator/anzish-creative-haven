@@ -18,6 +18,60 @@ const CraftPortfolio = () => {
       title: "Premium Gift Collection",
       image: "/lovable-uploads/ddc59104-e863-45e7-8080-47b0b46b1fae.png",
       description: "Elegant gift basket arrangement with chocolates, surprises, and decorative netting"
+    },
+    {
+      id: 3,
+      title: "Beauty & Wellness Basket",
+      image: "/lovable-uploads/bfbaa2e4-2c80-434c-a5f3-84a657670f36.png",
+      description: "Comprehensive beauty basket with cosmetics, skincare products, and colorful bangles"
+    },
+    {
+      id: 4,
+      title: "Money & Chocolate Bouquet",
+      image: "/lovable-uploads/1fb71e2a-1ff4-4192-add8-e16a36b0a4b9.png",
+      description: "Creative money bouquet arrangement with chocolates and elegant pink wrapping"
+    },
+    {
+      id: 5,
+      title: "Kids Snack Basket",
+      image: "/lovable-uploads/657edf50-6a0e-4b70-91b6-09715c5893bb.png",
+      description: "Fun snack basket with children's favorite treats and colorful packaging"
+    },
+    {
+      id: 6,
+      title: "Luxury Beauty Box",
+      image: "/lovable-uploads/b09c72f6-ec21-4848-9fc3-d57a48038d36.png",
+      description: "Premium beauty gift box with Coco perfume, jewelry, and skincare essentials"
+    },
+    {
+      id: 7,
+      title: "Feminine Care Package",
+      image: "/lovable-uploads/f372d90c-a996-4f51-9278-cba420664166.png",
+      description: "Thoughtful care package with makeup brushes, beauty accessories, and jewelry"
+    },
+    {
+      id: 8,
+      title: "Elegant Gift Boxes",
+      image: "/lovable-uploads/82974b8b-ef82-4992-ac35-a14fbe2742ad.png",
+      description: "Beautiful transparent gift boxes with roses and premium product arrangements"
+    },
+    {
+      id: 9,
+      title: "Luxurious Beauty Set",
+      image: "/lovable-uploads/22af4a9c-b58d-4839-82cf-ca9dd3cf32ff.png",
+      description: "Sophisticated beauty gift set with premium perfumes and elegant presentation"
+    },
+    {
+      id: 10,
+      title: "Elite Gift Collection",
+      image: "/lovable-uploads/29026ea5-b0f0-4995-8cca-a61271d5fdc5.png",
+      description: "Premium black and gold gift arrangement with luxury beauty products and accessories"
+    },
+    {
+      id: 11,
+      title: "Sweet Surprise Basket",
+      image: "/lovable-uploads/3a48deba-bffe-460d-b83c-271d78383eea.png",
+      description: "Adorable gift basket with teddy bear, chocolates, and festive treats"
     }
   ];
 

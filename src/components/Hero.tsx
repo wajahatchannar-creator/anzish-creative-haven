@@ -11,12 +11,7 @@ const Hero = () => {
       
       <div className="container mx-auto px-6 text-center relative z-10">
         <div className="animate-fade-in">
-          {/* Professional Photo Placeholder */}
-          <div className="w-48 h-48 mx-auto mb-8 rounded-full bg-gradient-to-br from-red-light to-red shadow-[var(--shadow-elegant)] flex items-center justify-center">
-            <div className="w-44 h-44 rounded-full bg-gradient-to-br from-background to-red-light/20 flex items-center justify-center text-4xl font-bold text-red-dark">
-              AF
-            </div>
-          </div>
+        <img src="/lovable-uploads/6f96db5b-2f7e-4b25-9a80-1e2cc544678e.png" alt="Anzish Fatima" className="w-48 h-48 rounded-full object-cover border-4 border-red/30 shadow-[var(--shadow-elegant)] mx-auto mb-8" />
           
           <h1 className="text-5xl md:text-7xl font-bold mb-4 bg-gradient-to-r from-foreground to-red-dark bg-clip-text text-transparent">
             Anzish Fatima
