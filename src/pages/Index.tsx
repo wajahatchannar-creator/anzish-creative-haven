@@ -19,12 +19,12 @@ const Index = () => {
           <About />
         </section>
         
-        <section id="services">
-          <Services />
-        </section>
-        
         <section id="portfolio">
           <Portfolio />
+        </section>
+        
+        <section id="services">
+          <Services />
         </section>
         
         <section id="contact">
