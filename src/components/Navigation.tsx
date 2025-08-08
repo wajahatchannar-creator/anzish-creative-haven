@@ -8,8 +8,8 @@ const Navigation = () => {
   const navItems = [
     { label: "Home", href: "#home" },
     { label: "About", href: "#about" },
-    { label: "Services", href: "#services" },
     { label: "Portfolio", href: "#portfolio" },
+    { label: "Services", href: "#services" },
     { label: "Contact", href: "#contact" }
   ];
 
@@ -27,7 +27,7 @@ const Navigation = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="font-bold text-xl bg-gradient-to-r from-red-dark to-red-darker bg-clip-text text-transparent">
-            Anzish Fatima
+            Awan Collections
           </div>
 
           {/* Desktop Navigation */}

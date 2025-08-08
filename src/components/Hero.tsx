@@ -11,10 +11,10 @@ const Hero = () => {
       
       <div className="container mx-auto px-6 text-center relative z-10">
         <div className="animate-fade-in">
-        <img src="/lovable-uploads/6f96db5b-2f7e-4b25-9a80-1e2cc544678e.png" alt="Anzish Fatima" className="w-48 h-48 rounded-full object-cover border-4 border-red/30 shadow-[var(--shadow-elegant)] mx-auto mb-8" />
+        <img src="/lovable-uploads/6f96db5b-2f7e-4b25-9a80-1e2cc544678e.png" alt="Awan Collections profile" className="w-48 h-48 rounded-full object-cover border-4 border-red/30 shadow-[var(--shadow-elegant)] mx-auto mb-8" />
           
           <h1 className="text-5xl md:text-7xl font-bold mb-4 bg-gradient-to-r from-foreground to-red-dark bg-clip-text text-transparent">
-            Anzish Fatima
+            Awan Collections
           </h1>
           
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto">
