@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
-import { Menu, X } from "lucide-react";
+import { Menu, X, Instagram } from "lucide-react";
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -9,6 +9,7 @@ const Navigation = () => {
     { label: "Home", href: "#home" },
     { label: "About", href: "#about" },
     { label: "Portfolio", href: "#portfolio" },
+    { label: "Instagram", href: "#instagram" },
     { label: "Services", href: "#services" },
     { label: "Contact", href: "#contact" }
   ];
@@ -22,7 +23,7 @@ const Navigation = () => {
   };
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-md border-b border-red/20">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-background/70 backdrop-blur-xl border-b border-border">
       <div className="container mx-auto px-6">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
@@ -41,6 +42,14 @@ const Navigation = () => {
                 {item.label}
               </button>
             ))}
+            <Button 
+              variant="ghost" 
+              size="icon"
+              aria-label="Open Instagram"
+              onClick={() => window.open('https://www.instagram.com/awan._.collections?igsh=cnQzYzVyNHF6cWZr', '_blank')}
+            >
+              <Instagram className="w-5 h-5" />
+            </Button>
             <Button 
               variant="contact" 
               size="sm"
@@ -61,7 +70,7 @@ const Navigation = () => {
 
         {/* Mobile Navigation */}
         {isOpen && (
-          <div className="md:hidden py-4 space-y-4 border-t border-red/20">
+          <div className="md:hidden py-4 space-y-4 border-t border-border">
             {navItems.map((item) => (
               <button
                 key={item.label}

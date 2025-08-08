@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 
 const Hero = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-background via-red-light/20 to-red-light/30 overflow-hidden">
+    <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-b from-background via-muted/20 to-background overflow-hidden">
       {/* Background decorative elements */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-20 left-20 w-32 h-32 bg-red-dark rounded-full blur-3xl animate-float"></div>
@@ -35,6 +35,13 @@ const Hero = () => {
               onClick={() => document.getElementById('portfolio')?.scrollIntoView({ behavior: 'smooth' })}
             >
               View Portfolio
+            </Button>
+            <Button 
+              variant="elegant" 
+              size="lg"
+              onClick={() => window.open('https://www.instagram.com/awan._.collections?igsh=cnQzYzVyNHF6cWZr', '_blank')}
+            >
+              Instagram
             </Button>
           </div>
         </div>

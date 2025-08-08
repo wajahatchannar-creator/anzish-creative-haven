@@ -59,7 +59,7 @@ const Portfolio = () => {
           {portfolioCategories.map((category) => (
             <Card 
               key={category.id} 
-              className="group overflow-hidden hover:shadow-[var(--shadow-elegant)] transition-all duration-300 hover:scale-105 border-red/20 bg-card cursor-pointer"
+              className="group overflow-hidden hover:shadow-[var(--shadow-elegant)] transition-all duration-300 hover:scale-105 border-border bg-card cursor-pointer"
               onClick={() => handleCategoryClick(category.route)}
             >
               <CardContent className="p-0">

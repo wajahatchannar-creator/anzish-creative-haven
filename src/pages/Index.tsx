@@ -11,19 +11,19 @@ const Index = () => {
       <Navigation />
       
       <main>
-        <section id="home">
+        <section id="home" className="scroll-mt-24">
           <Hero />
         </section>
         
-        <section id="about">
+        <section id="about" className="scroll-mt-24">
           <About />
         </section>
         
-        <section id="portfolio">
+        <section id="portfolio" className="scroll-mt-24">
           <Portfolio />
         </section>
         
-        <section id="instagram" aria-labelledby="instagram-heading">
+        <section id="instagram" aria-labelledby="instagram-heading" className="scroll-mt-24">
           <div className="container mx-auto px-6 py-16">
             <h2 id="instagram-heading" className="text-3xl md:text-4xl font-semibold mb-6">Follow Awan Collections on Instagram</h2>
             <p className="text-muted-foreground mb-6 max-w-2xl">See our latest designs, behind-the-scenes, and customer highlights.</p>
@@ -41,11 +41,11 @@ const Index = () => {
           </div>
         </section>
         
-        <section id="services">
+        <section id="services" className="scroll-mt-24">
           <Services />
         </section>
         
-        <section id="contact">
+        <section id="contact" className="scroll-mt-24">
           <Contact />
         </section>
       </main>
