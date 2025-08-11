@@ -11,7 +11,7 @@ const Hero = () => {
       
       <div className="container mx-auto px-6 text-center relative z-10">
         <div className="animate-fade-in">
-        <img src="/lovable-uploads/6f96db5b-2f7e-4b25-9a80-1e2cc544678e.png" alt="Awan Collections profile" className="w-36 h-36 rounded-full object-cover border-4 border-red/30 shadow-[var(--shadow-elegant)] mx-auto mb-6" />
+        <img src="/lovable-uploads/6f96db5b-2f7e-4b25-9a80-1e2cc544678e.png" alt="Awan Collections profile" className="w-48 h-48 rounded-full object-cover object-top border-4 border-red/30 shadow-[var(--shadow-elegant)] mx-auto mb-6" />
           
           <h1 className="text-4xl md:text-6xl font-bold mb-3 bg-gradient-to-r from-foreground to-red-dark bg-clip-text text-transparent">
             Awan Collections
