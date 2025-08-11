@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 
 const Hero = () => {
   return (
-    <section className="relative min-h-[70vh] md:min-h-[75vh] flex items-center justify-center bg-[image:var(--gradient-hero)] overflow-hidden">
+    <section className="relative min-h-[70vh] md:min-h-[75vh] pt-20 sm:pt-24 md:pt-28 flex items-center justify-center bg-[image:var(--gradient-hero)] overflow-hidden">
       {/* Background decorative elements */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-20 left-20 w-32 h-32 bg-red-dark rounded-full blur-3xl animate-float"></div>
