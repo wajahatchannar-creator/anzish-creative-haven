@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 
 const Hero = () => {
   return (
-    <section className="relative min-h-[70vh] md:min-h-[75vh] flex items-center justify-center bg-[image:var(--gradient-hero)] overflow-hidden">
+    <section className="relative min-h-[55vh] md:min-h-[65vh] flex items-center justify-center bg-[image:var(--gradient-hero)] overflow-hidden">
       {/* Background decorative elements */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-20 left-20 w-32 h-32 bg-red-dark rounded-full blur-3xl animate-float"></div>
@@ -11,17 +11,17 @@ const Hero = () => {
       
       <div className="container mx-auto px-6 text-center relative z-10">
         <div className="animate-fade-in">
-        <img src="/lovable-uploads/6f96db5b-2f7e-4b25-9a80-1e2cc544678e.png" alt="Awan Collections profile" className="w-48 h-48 rounded-full object-cover border-4 border-red/30 shadow-[var(--shadow-elegant)] mx-auto mb-8" />
+        <img src="/lovable-uploads/6f96db5b-2f7e-4b25-9a80-1e2cc544678e.png" alt="Awan Collections profile" className="w-36 h-36 rounded-full object-cover border-4 border-red/30 shadow-[var(--shadow-elegant)] mx-auto mb-6" />
           
-          <h1 className="text-5xl md:text-7xl font-bold mb-4 bg-gradient-to-r from-foreground to-red-dark bg-clip-text text-transparent">
+          <h1 className="text-4xl md:text-6xl font-bold mb-3 bg-gradient-to-r from-foreground to-red-dark bg-clip-text text-transparent">
             Awan Collections
           </h1>
           
-          <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto">
+          <p className="text-lg md:text-xl text-muted-foreground mb-6 max-w-2xl mx-auto">
             Beauty Expert | Fashion Designer | Craft Artist
           </p>
           
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+          <div className="flex flex-col sm:flex-row gap-3 justify-center items-center">
             <Button 
               variant="contact" 
               size="lg" 
